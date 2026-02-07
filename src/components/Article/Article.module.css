@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+.userWrap {
+  min-width: 200px;
+  max-width: 350px;
+  width: 100%;
+  background-color: rgb(237, 86, 86);
+  padding: 10px;
+  text-align: center;
+}
+.userImg {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
