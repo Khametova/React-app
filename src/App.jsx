@@ -20,10 +20,30 @@ function App() {
       "https://media.houseandgarden.co.uk/photos/686537f2be45bcdcc6138428/16:9/w_2560%2Cc_limit/GettyImages-2210458687.jpg",
   };
 
+  const user2 = {
+    name: "Kate",
+    surname: "Backinsale",
+    gender: "female",
+    age: 52,
+    imgSrc:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp76mZIONYNYCfyjKJq_eoCbxjJbV9erVRTw&s",
+  };
+
+  const user3 = {
+    name: "Killian",
+    surname: "Murphy",
+    gender: "male",
+    age: 48,
+    imgSrc:
+      "https://www.shutterstock.com/editorial/image-editorial/O1TeA8y7N0j9k220NDk1OQ==/cillian-murphy-440nw-8965272z.jpg",
+  };
+
   return (
     <div className={styles.userBox}>
       <Article user={user} />
       <Article user={user1} />
+      <Article user={user2} />
+      <Article user={user3} />
     </div>
   );
 }
