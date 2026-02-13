@@ -1,3 +1,4 @@
+import { TbBulb } from "react-icons/tb";
 import styles from "./Article.module.css";
 
 function Article(props) {
@@ -9,6 +10,9 @@ function Article(props) {
       </h2>
       <p>{props.user.age}</p>
       <img className={styles.userImg} src={props.user.imgSrc} alt="" />
+      <button>
+        <TbBulb />
+      </button>
     </article>
   );
 }
