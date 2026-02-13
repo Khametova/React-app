@@ -8,9 +8,16 @@
   background-color: rgb(204, 165, 165);
   padding: 10px;
   text-align: center;
+  box-shadow: 1px 1px 5px rgb(91, 86, 86);
 }
 .userImg {
   width: 100%;
   aspect-ratio: 3/4;
   object-fit: cover;
+}
+.maleBorder {
+  box-shadow: 1px 1px 3px blue;
+}
+.femaleBorder {
+  box-shadow: 1px 1px 3px rgb(213, 49, 134);
 }
