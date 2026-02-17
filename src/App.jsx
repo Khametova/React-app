@@ -50,7 +50,7 @@ function App() {
       {/* <Article user={user2} /> */}
       {/* <Article user={user3} /> */}
       {users.map((user) => {
-        return <Article user={user} />;
+        return <Article user={user} key={user.id} />;
       })}
     </div>
   );
